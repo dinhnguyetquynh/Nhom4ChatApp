@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/my_primary"
+    android:background="#88C8EC"
     tools:context=".SplashActivity">
 
     <LinearLayout
@@ -18,7 +18,7 @@
             android:layout_height="160dp"
             android:src="@drawable/chat_icon"
             android:layout_marginTop="160dp"
-            app:tint="@color/my_secondary" />
+            app:tint="@color/white" />
 
         <TextView
             android:layout_width="wrap_content"
