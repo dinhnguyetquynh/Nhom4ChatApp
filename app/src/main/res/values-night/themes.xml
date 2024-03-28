@@ -3,8 +3,8 @@
     <style name="Theme.Nhom4_ChatAppAndroid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
-        <item name="colorPrimary">@color/my_primary</item>
-        <item name="colorPrimaryVariant">@color/my_primary</item>
+        <item name="colorPrimary">@color/blue_sky</item>
+        <item name="colorPrimaryVariant">@color/blue_sky</item>
         <item name="colorOnPrimary">@color/white</item>
 
         <item name="colorSecondary">@color/my_secondary</item>
