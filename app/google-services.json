@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "748616219105",
+    "project_id": "nhom4-chatappandroid-backend",
+    "storage_bucket": "nhom4-chatappandroid-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748616219105:android:ef05e3da50b769469b7aa0",
+        "android_client_info": {
+          "package_name": "com.example.nhom4_chatappandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb2g7LPtxQOuJL9_knGzz_kTbILC2fqMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
