@@ -3,6 +3,7 @@ package com.example.nhom4_chatappandroid;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -56,6 +57,8 @@ public class LoginOtpActivity extends AppCompatActivity {
                 String enteredOtp = otpInput.getText().toString();
                 PhoneAuthCredential credential=PhoneAuthProvider.getCredential(verificationCode,enteredOtp);
                 signIn(credential);
+                Intent intent = new Intent(LoginOtpActivity.this,MainViewNewUser.class);
+                startActivity(intent);
             }
         });
 
