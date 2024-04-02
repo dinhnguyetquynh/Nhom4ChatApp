@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormRegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtHoTen"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Nhập họ và tên"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            />
+        <EditText
+            android:id="@+id/edtSDT"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Nhập SDT"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:id="@+id/edtNamSinh"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Nhập Năm Sinh"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Chọn giới tính"
+            android:textSize="17dp"
+            />
+
+        <RadioButton
+            android:id="@+id/rdoNu"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Nữ" />
+
+        <RadioButton
+            android:id="@+id/rdoNam"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Nam"/>
+
+        <Button
+            android:id="@+id/btnDangKy"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_rounded_corner"
+            android:backgroundTint="@color/blue_sky"
+            android:text="Đăng Ký"
+            android:textColor="@color/white"
+
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
