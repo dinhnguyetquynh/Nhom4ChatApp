@@ -57,8 +57,6 @@ public class LoginOtpActivity extends AppCompatActivity {
                 String enteredOtp = otpInput.getText().toString();
                 PhoneAuthCredential credential=PhoneAuthProvider.getCredential(verificationCode,enteredOtp);
                 signIn(credential);
-                Intent intent = new Intent(LoginOtpActivity.this,MainViewNewUser.class);
-                startActivity(intent);
             }
         });
 
@@ -115,7 +113,8 @@ public class LoginOtpActivity extends AppCompatActivity {
     void signIn(PhoneAuthCredential phoneAuthCredential){
         //login and go to activity
         setInProgress(true);
-        
+        Intent intent = new Intent(LoginOtpActivity.this,MainViewNewUser.class);
+        startActivity(intent);
 
     }
 }
