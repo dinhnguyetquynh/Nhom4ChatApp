@@ -80,7 +80,7 @@ public class LoginOtpActivity extends AppCompatActivity {
 
                     @Override
                     public void onVerificationFailed(@NonNull FirebaseException e) {
-                        AndroidUtil.showToast(getApplicationContext(),"Xác thực OTP thất bại");
+                        AndroidUtil.showToast(getApplicationContext(),e.toString());
                         setInProgress(false);
                     }
 
