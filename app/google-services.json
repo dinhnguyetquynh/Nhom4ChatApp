@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "748616219105",
-    "project_id": "nhom4-chatappandroid-backend",
-    "storage_bucket": "nhom4-chatappandroid-backend.appspot.com"
+    "project_number": "686089275216",
+    "project_id": "lettalk-nhom4",
+    "storage_bucket": "lettalk-nhom4.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:748616219105:android:ef05e3da50b769469b7aa0",
+        "mobilesdk_app_id": "1:686089275216:android:f369ed60d0f9f7178fce55",
         "android_client_info": {
           "package_name": "com.example.nhom4_chatappandroid"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBb2g7LPtxQOuJL9_knGzz_kTbILC2fqMM"
+          "current_key": "AIzaSyCHL34TZRwNLQRI_ucR-Yg2ms95B_Ppd4k"
         }
       ],
       "services": {

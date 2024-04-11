@@ -9,8 +9,8 @@
     android:background="@color/blue_sky">
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="160dp"
+        android:layout_width="119dp"
+        android:layout_height="169dp"
         android:layout_gravity="center"
         android:layout_marginTop="150dp"
         android:src="@drawable/chat_icon"
@@ -19,28 +19,26 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bắt đầu chuyện trò cùng nhau"
         android:layout_gravity="center"
+        android:text="Chào Mừng Đến Với Let Talk!"
         android:textColor="@color/white"
-        android:textSize="20dp"
-        android:fontFamily="cursive"
-        />
+        android:textSize="24dp"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/btnDangKy"
-        android:layout_width="150dp"
+        android:layout_width="175dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
+        android:background="@drawable/btn_rounded_corner"
         android:backgroundTint="@color/white"
         android:text="Đăng ký"
-        android:textColor="@color/black"
-        android:background="@drawable/btn_rounded_corner"
-        />
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/btnDangNhap"
-        android:layout_width="150dp"
+        android:layout_width="175dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
