@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangNhapEmail">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="ĐĂNG NHẬP"
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/dangnhap_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Nhập email"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:elevation="5dp"/>
+    <EditText
+        android:id="@+id/dangnhap_matkhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Nhập mật khẩu"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:elevation="5dp"/>
+    <Button
+        android:id="@+id/dangnhap_btnDangNhap"
+        android:layout_width="200dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_rounded_corner"
+        android:backgroundTint="@color/blue_sky"
+        android:text="Đăng Nhập"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+</LinearLayout>

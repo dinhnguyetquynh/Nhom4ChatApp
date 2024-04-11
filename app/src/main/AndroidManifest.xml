@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Nhom4_ChatAppAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchUser"
+            android:exported="false" />
+        <activity
+            android:name=".DangNhapEmail"
+            android:exported="false" />
+        <activity
+            android:name=".OtpDangKi"
+            android:exported="false" />
+        <activity
+            android:name=".testOTP"
+            android:exported="false" />
+        <activity
             android:name=".FormRegisterActivity"
             android:exported="false" />
         <activity

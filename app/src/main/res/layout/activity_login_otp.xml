@@ -15,19 +15,21 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_weight="20">
+
         <RelativeLayout
-            android:layout_width="32dp"
+            android:layout_width="27dp"
             android:layout_height="32dp"
             android:layout_margin="10dp"
             android:background="@drawable/circular_bg"
             android:backgroundTint="@color/light_gray">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+                android:text="1"
                 android:textColor="@color/white"
-                android:textSize="18sp"
-                android:text="1"/>
+                android:textSize="18sp" />
 
         </RelativeLayout>
 

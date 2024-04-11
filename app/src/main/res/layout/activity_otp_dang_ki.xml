@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OtpDangKi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Xác Thực OTP "
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="55dp"
+            android:background="@color/blue_sky">
+
+            <EditText
+                android:id="@+id/edtOTPDangki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:hint="Nhập mã OTP xác thực"
+                android:textColorHint="@color/white"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="110dp">
+
+            <Button
+                android:id="@+id/btnDangki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Đăng ký " />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -64,6 +64,7 @@ public class LoginOtpActivity extends AppCompatActivity {
 
     }
     void sendOtp(String phoneNumber,boolean isResend){
+
         setInProgress(true);
         PhoneAuthOptions.Builder builder = PhoneAuthOptions.newBuilder(mAuth)
                 .setPhoneNumber(phoneNumber)
